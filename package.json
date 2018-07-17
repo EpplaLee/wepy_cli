@@ -1,0 +1,24 @@
+{
+  "name": "wepy_create",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./bin/wepy_cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wepy-create": "./bin/wepy_cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codexu/x-build-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "download-git-repo": "^1.0.2",
+    "ora": "^2.1.0"
+  }
+}
